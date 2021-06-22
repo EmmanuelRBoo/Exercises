@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#7daeff 20%,#002259 80%);
+}
+
+header{
+    padding: 10px 8px;
+    text-align: center;
+}
+
+h1{
+    display: inline;
+}
+
+h2{
+    padding-top: 20px;
+    font-size: 26px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+.links{
+    margin-top: 18px;
+}
+
+main{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 144, 201, 0.2);
+}
+
+img{
+    margin-top: 20px;
+    width: 360px;
+}
+
+table{
+    margin: 20px auto;
+    max-width: 180px;
+}
+
+td{
+    text-align: start;
+    padding: 3px 16px;
+}
+
+.border{
+    margin: 16px auto;
+    max-width: 600px;
+    width: 100%;
+    border-top: 1px solid black;
+}
+
+article{
+    margin: 0 4%;
+    margin-top: 30px;
+}
+
+h3{
+    font-size: 26px;
+    text-align: start;
+    border-bottom: 1px solid black;
+}
+
+p{
+    text-align: justify;
+    margin: 4px 0;
+    font-size: 18px;
+    text-indent: 8px;
+}
+
+.text{
+    display: inline-block;
+}
+
+.image{
+    text-align: start;
+}
+
+.refs{
+    margin-top: 12px;
+    padding-bottom: 20px;
+    text-align: start;
+}
+
+.refs li{
+    margin-top: 10px;
+}
+
+.refs a{
+    text-decoration: dashed;
+    padding-left: 6px;
+    cursor: pointer;
+}
+
+footer h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
